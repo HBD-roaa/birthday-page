@@ -91,7 +91,13 @@ h1{font-size:32px;font-weight:700;color:#f5f0e8;letter-spacing:1.5px;margin-bott
 
 
 /* ---- SECRET MESSAGES ---- */
-.secrets-label{font-size:13px;color:#64748b;letter-spacing:1px;margin-bottom:14px;}
+.secrets-label{
+font-size:18px;
+color:#e2c97e;
+letter-spacing:1.5px;
+margin-bottom:18px;
+font-weight:600;
+}
 .secret-dots{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;}
 .dot-btn{
   width:42px;height:42px;border-radius:50%;
@@ -151,7 +157,7 @@ h1{font-size:32px;font-weight:700;color:#f5f0e8;letter-spacing:1.5px;margin-bott
   <!-- SECRET MESSAGES -->
   <div class="section-divider" id="sec3" style="opacity:0;transition:opacity 1s ease;"></div>
   <div id="secretSection" style="opacity:0;transition:opacity 1s ease;">
-    <p class="secrets-label">messages for you — tap a star</p>
+    <p class="secrets-label">A little message for you — tap a star</p>
     <div class="secret-dots">
       <button class="dot-btn" onclick="revealSecret(0)">🌟</button>
       <button class="dot-btn" onclick="revealSecret(1)">💫</button>
@@ -164,7 +170,7 @@ h1{font-size:32px;font-weight:700;color:#f5f0e8;letter-spacing:1.5px;margin-bott
 
 <script>
 /* ===== TYPING ===== */
-const fullText = `كنت عايز أقولك كل سنة وانتي طيبة\nومش عارف أعملها إزاي\nفحاولت أعملها بطريقتي\n\nكل سنة وانتي طيبة يا هندسة\nوان شاء الله السنة تكوني محققة كل اللي تتمنيه ❤️`;
+const fullText = `كنت عايز أقولك كل سنة وانتي طيبة\nومش عارف أعملها إزاي\nفحاولت أعملها بطريقتي\n\nكل سنة وانتي طيبة يا هندسة\nوان شاء الله السنة الجاية تكوني محققة كل اللي تتمنيه ❤️`;
 const typedEl = document.getElementById('typed');
 const cursorEl = document.getElementById('cursor');
 const footer = document.getElementById('footer');
