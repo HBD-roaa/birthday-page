@@ -317,8 +317,12 @@ function toggleMusic(){
   }
 }
 </script>
-  <script>
-fetch("https://api.countapi.xyz/hit/birthday-page/visits")
+ <script>
+fetch("https://api.counterapi.dev/v1/birthday-page/visit/up")
+.then(response => response.json())
+.then(data => {
+    console.log("Visits:", data.count);
+});
 </script>
 </body>
 </html>
